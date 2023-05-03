@@ -16,6 +16,8 @@ Preview of my website:
 
 Light Theme:
 
+![image](https://user-images.githubusercontent.com/43941329/235841829-d41bfaf3-61a4-49bc-880d-3ac92e46a3ca.png)
+
 Dark Theme:
 
-
+![image](https://user-images.githubusercontent.com/43941329/235841859-b458ff61-42e3-4f71-9a0d-667610b7329f.png)
