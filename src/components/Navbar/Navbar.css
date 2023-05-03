@@ -1,0 +1,52 @@
+.navbar {
+    /* padding: 10px; */
+    /* background-color: red; */
+    
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 50px);
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.links {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    padding-right: 20px;
+}
+
+.name-title {
+    font-family: Nepali;
+}
+/* .theme-icon{
+    transition: color 0.5s ease-in-out;
+} */
+/* 
+.theme-icon{
+    width: 100px;
+} */
+
+@media screen and (max-width: 550px) {
+    .link-item {
+        display: none;
+    }
+    .links{
+        width: 10px;
+    }
+
+    .name-title {
+        margin-top: 20px;
+    }
+}

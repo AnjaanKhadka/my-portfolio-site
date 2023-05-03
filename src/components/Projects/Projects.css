@@ -1,0 +1,216 @@
+.segment-title-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.segment-title{
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 100;
+    /* color: #01161E; */
+    text-align: center;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+
+
+.segment-title-text{
+    font-size: 20px;
+    font-weight: 100;
+    font-weight: 500;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.projects-card-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 0px 0px 0px;
+    gap: 30px 50px;
+    padding:10px 100px;
+}
+
+@media screen and (max-width: 550px) {
+    .projects-card-holder{
+        padding:0px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .projects-card-holder{
+        padding: 10px calc((100vw - 1100px)/2);
+    }
+}
+
+.project-card{
+    width: 70%;
+    height: 250px;
+    background-image: linear-gradient(30deg,#90e3f4,#bbd4af);
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px 0px;
+    position : relative;
+}
+
+.project-card-image-holder{
+    padding:0px;
+    width:250px;
+    overflow-x: hidden;
+}
+.project-card-image{
+    /* height:250px; */
+    margin-top: 4px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.project-card-text-holder{
+    width: calc(70vw - 250px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.project-card-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.project-card-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+
+/* Here is the useless one  */
+.project-card-container{
+    margin:0px;
+    background-image:linear-gradient(30deg,#90e3f4,#bbd4af);
+    border-radius: 8px;
+    height:345px;
+    width:250px;
+    color: #19271c;
+    overflow-y: hidden;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+
+.project-card-image-holder-new{
+    padding:0px;
+    width:250px;
+    height:250px;
+    overflow: hidden;
+    border-radius: 8px 8px 0px 0px; 
+    
+    /* Uncomment */
+    transition: height 0.8s ease-in-out 100ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+    /* transition-timing-function: linear; */
+    
+    /* comment */
+    /* height: 0px; */
+    
+}
+.project-card-container:hover .project-card-image-holder-new{
+    /* display: none; */
+    height: 0px;
+    transition-delay: 0ms;
+}
+
+.project-card-image-new{
+    height:250px;
+    /* margin-top: 4px; */ 
+}
+.project-card-title-new{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px 7px 0px;
+    /* width: 200px; */
+    /* height: 50px; */
+    text-align: start;
+}
+.project-card-text-container{
+    width: 230px;
+    margin-left: 10px;
+}
+
+.project-card-algorithms{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.project-card-algorithm-used-individual{
+    border: 1px solid #19271c6d;
+    border-radius: 10px; 
+    margin: 3px 3px 8px 3px;
+    padding: 2px 10px;
+}
+
+.project-card-description{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: justify;
+    /* width: 200px; */
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    /* height: 100px; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.project-card-links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.project-card-links-individual{
+    background-color: unset;
+    border: 1px solid #19271c6d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e5f0ef;
+    height: 30px;
+    width: 95px;
+}
+.project-card-links-individual p{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+}
+
+
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }

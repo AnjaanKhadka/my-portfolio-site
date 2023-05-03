@@ -1,0 +1,67 @@
+[
+  {
+    "Name": "Automatic Nepali Number-Plate Recognition",
+    "Description": "It is a Nepali Number-Plate Recognition System. It is a part of my Third Year Project.",
+    "Algorithms": ["YOLOv4","YOLOv5","CNN"],
+    "Task": "Computer Vision",
+    "Links": {
+      "Github" : "https://github.com/AnjaanKhadka/annpr",
+      "Documentation" : "https://drive.google.com/file/d/1V56deMwKBQD4H0XHLCT0RZU2sMryUAvk/view?usp=share_link"
+    },
+    "Image": "annpr.png"
+  },
+  {
+    "Name": "Nepali Speech Recognition and Summarization",
+    "Description": "It is an speech transcription and summarization system for Nepali Language. It is a part of my Final Year Project.",
+    "Algorithms": ["Wav2vec-2.0", "TextRank", "T5", "CNN-ResNET-BiLSTM"],
+    "Task": "Speech Recognition and Summarization",
+    "Links": {
+      "Github": "https://github.com/JuJu2181/Automatic-Nepali-Speech-Recognition-and-Summarizer",
+      "Documentation": "https://drive.google.com/file/d/1Qw6d0Hp9nd9UA_bAD4p66Y4A7CxPddoz/view?usp=share_link"
+
+    },
+    "Image": "ansrs.png"
+
+  },
+  {
+    "Name": "Tic-Tac-Toe using Minimax Algorithm",
+    "Description": "It is an optimal tic-tac-toe AI built on python.",
+    "Algorithms": ["Minimax Algorithm"],
+    "Task": "Tic-Tac-Toe",
+    "Links": {
+      "Github": "https://github.com/AnjaanKhadka/Tic-Tac-Toe-AI-using-MinMax"
+    }
+    ,
+    "Image": "tictactoe.png"
+  },
+  {
+    "Name": "Single Purpose Neural Network from Scratch",
+    "Description": "It is simple implementation of Layered architecture of Neural Network from Scratch using python. It is designed to find path in a simple 2d game.",
+    "Algorithms": ["Layered Neural networks"],
+    "Task": "",
+    "Links": {
+      "Github": "https://github.com/AnjaanKhadka/Single-purpose-Neural-Network-From-Scratch"  
+    },
+    "Image": "ann_archi.png" 
+  },
+  {
+    "Name": "Skin Disease Detection using Deep Learning",
+    "Description": "It is a skin disease classification system that can be useful for dermatologists. It is a hackathon project made in 2 days.",
+    "Algorithms": ["ResNET152"],
+    "Task": "Computer Vision",
+    "Links": {
+      "Github": "https://github.com/shyamron/Skin_Disease_Detection"  
+    },
+    "Image": "sdds.png"
+  },
+  {
+    "Name": "Movie recomendation system using K-Means Clustering",
+    "Description": "It is a simple project done as a lab work for Data Mining course. It is a movie recomendation system using K-Means Clustering",
+    "Algorithms": ["K-Means Clustering"],
+    "Task": "Recomendation System",
+    "Links": {
+      "Github": "https://github.com/AnjaanKhadka/Movie-recomendation-system-using-KMeans-clustering"  
+    },
+    "Image": "KMeans.png"
+  }
+]
