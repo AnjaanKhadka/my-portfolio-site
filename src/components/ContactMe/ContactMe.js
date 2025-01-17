@@ -53,7 +53,7 @@ function ContactInfo() {
     return (
         <div className='contact-info-container'>
             <ContactInfoIndividual title='Email' info='njn6171@gmail.com' />
-            <ContactInfoIndividual title='Phone' info='(977) 9803121230' />
+            <ContactInfoIndividual title='Phone' info='(977) 9860428363' />
             <ContactInfoIndividual title='Other Contacts' info='' />
             <OtherContacts/>
         </div>
@@ -78,6 +78,7 @@ function MailMe() {
 
     return (
         <div className='mail-me-container'>
+            <h3 style={{fontWeight : "500"}}>Message Me</h3>
             <form ref={form} onSubmit={sendEmail} className='mail-me-form'>
                 {/* <label className='mail-me-form-label'>Name</label> */}
                 <input type="text" name="from_name" className='mail-me-input-field' placeholder='Your Name' required minLength={4}/>
